@@ -52,18 +52,20 @@ gerardoTuno = {
   link: "",
 };
 
-tunos = [kimyTuno, davidTuno, richardTuno, cantiTuno, gerardoTuno];
-
-// ********* ------------- Pardillos ---------------- ***********************
-popaPardillo = {
+popaTuno = {
   name: "José",
   alias: "Popa, Abuelo",
-  range: "Director Musical",
-  date: "08/04/17",
+  range: "Director Musical <3",
+  date: "16/10/22",
   phrase: "",
   img: "https://i.ibb.co/gMxzxp1/popapardillo.png",
   link: "",
 };
+
+tunos = [kimyTuno, davidTuno, richardTuno, cantiTuno, gerardoTuno, popaTuno];
+
+// ********* ------------- Pardillos ---------------- ***********************
+
 
 christianPardillo = {
   name: "Christian",
@@ -92,7 +94,7 @@ alfonsoPardillo = {
   date: "",
   phrase: "",
   img: "https://i.ibb.co/V9VKjS5/alfonsopardillo.png",
-  link: "",
+  link: "https://www.tunaitch.x10.mx/home.html",
 };
 
 serranoPardillo = {
@@ -136,7 +138,7 @@ garyPardillo = {
 };
 
 pardillos = [
-  popaPardillo,
+  
   christianPardillo,
   juanPabloPardillo,
   alfonsoPardillo,
@@ -222,7 +224,7 @@ function createMember(mainCenter, member, memberData) {
   // Subsection
   center = createCenter(select);
   imageSelect = createContainer(center, "select-image circle", "div");
-  a = createAnA(imageSelect, "");
+  a = createAnA(imageSelect, member.link);
   image = createImageIntoContainer(a, "select-image-pic", member.img, "");
 
   // Text
