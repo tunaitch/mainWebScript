@@ -58,7 +58,7 @@ popaTuno = {
   range: "Director Musical <3",
   date: "16/10/22",
   phrase: "",
-  img: "https://i.ibb.co/gMxzxp1/popapardillo.png",
+  img: "https://i.ibb.co/K6VHdn8/popaTuno.png",
   link: "",
 };
 
@@ -70,7 +70,7 @@ tunos = [kimyTuno, davidTuno, richardTuno, cantiTuno, gerardoTuno, popaTuno];
 christianPardillo = {
   name: "Christian",
   alias: "Peque",
-  range: "Jefe de pardillos",
+  range: "Pardillo",
   date: "",
   phrase: "",
   img: "https://i.ibb.co/vC9859W/christianpardillo.png",
@@ -80,7 +80,7 @@ christianPardillo = {
 juanPabloPardillo = {
   name: "Juan Pablo",
   alias: "Foster",
-  range: "Pardillo",
+  range: "Jefe de Pardillos",
   date: "",
   phrase: "",
   img: "https://i.ibb.co/FqDKxNG/juanpablopardillo.png",
@@ -93,7 +93,7 @@ alfonsoPardillo = {
   range: "Pardillo",
   date: "",
   phrase: "",
-  img: "https://i.ibb.co/V9VKjS5/alfonsopardillo.png",
+  img: "https://i.ibb.co/tCRYymf/alfonsopardillo2.png",
   link: "https://www.tunaitch.x10.mx/home.html",
 };
 
@@ -137,15 +137,39 @@ garyPardillo = {
   link: "",
 };
 
+andyPardillo = {
+  name: "Andres",
+  alias: "Shaggy",
+  range: "Pardillo",
+  date: "",
+  phrase: "",
+  img: "https://i.ibb.co/v3M12cN/shaggy-Pardillo.png",
+  link: "",
+};
+
+fitzPardillo = {
+  name: "Omar",
+  alias: "Fitz",
+  range: "Pardillo",
+  date: "",
+  phrase: "",
+  img: "https://i.ibb.co/0f2BRVw/fitz-Pardillo.png",
+  link: "",
+};
+
 pardillos = [
   
-  christianPardillo,
+  
   juanPabloPardillo,
-  alfonsoPardillo,
+  christianPardillo,
+  
   serranoPardillo,
   angelPardillo,
   gioPardillo,
   garyPardillo,
+  andyPardillo,
+  fitzPardillo,
+  alfonsoPardillo,
 ];
 
 // ********* ------------- Aspirantes ---------------- ***********************
