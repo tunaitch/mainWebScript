@@ -157,6 +157,16 @@ fitzPardillo = {
   link: "",
 };
 
+adolfoPardillo = {
+  name: "Adolfo",
+  alias: "Fürer",
+  range: "Pardillo",
+  date: "",
+  phrase: "",
+  img: "https://i.ibb.co/fSDmK5h/adolfoaspiranteof.png",
+  link: "",
+};
+
 pardillos = [
   
   
@@ -169,6 +179,7 @@ pardillos = [
   garyPardillo,
   andyPardillo,
   fitzPardillo,
+  adolfoPardillo,
   alfonsoPardillo,
 ];
 
@@ -183,15 +194,7 @@ emirAspirante = {
   link: "",
 };
 
-adolfoAspirante = {
-  name: "Adolfo",
-  alias: "Fürer",
-  range: "Aspirante",
-  date: "",
-  phrase: "",
-  img: "https://i.ibb.co/fSDmK5h/adolfoaspiranteof.png",
-  link: "",
-};
+
 
 uriAspirante = {
   name: "Uri",
@@ -213,7 +216,7 @@ ulisesAspirante = {
   link: "",
 };
 
-aspirantes = [emirAspirante, adolfoAspirante, uriAspirante, ulisesAspirante];
+aspirantes = [emirAspirante, uriAspirante, ulisesAspirante];
 
 // ********* ------------- Sections ---------------- ***********************
 
